@@ -1,0 +1,10 @@
+package com.aisha;
+
+public interface EditDistance {
+
+    int distance(String a, String b);
+
+    long getOperations();
+
+    void resetOperations();
+}
